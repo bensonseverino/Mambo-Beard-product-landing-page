@@ -1,0 +1,35 @@
+/* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+.hero {
+  background: url("/images/mambo\ beard\ \ banner\ 1.jpg") no-repeat center
+    center;
+  background-size: cover;
+  color: black;
+  text-align: left;
+  padding: 80px 0;
+}
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+.product-card {
+  border: none;
+  text-align: center;
+  background-color: #f8f9fa;
+  transition: transform 0.2s ease;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+.footer p,
+.footer a {
+  color: white;
+  text-decoration: none;
+}
